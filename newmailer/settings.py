@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '*rw!a*l_t*^ddb22r4rp#8&91m*$ewt35oy2wpiph_c%q3l8w_'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -192,17 +192,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 LOGIN_REDIRECT_URL = '/'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
-EMAIL_HOST = 'smtp.gmail.com' 
-
-EMAIL_HOST_USER = 'marcusjobng@gmail.com'
-
-EMAIL_HOST_NAME = 'Marcus_Job'
-
-EMAIL_HOST_PASSWAORD = 'Cityboy1992'
-
-EMAIL_PORT = 587
-
-EMAIL_USE_TLS = True
-
-EMAIL_USE_SSL = True 
